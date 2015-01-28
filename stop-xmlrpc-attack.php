@@ -3,7 +3,7 @@
 Plugin Name: Stop XML-RPC Attack
 Plugin URI: http://wordpress.org/extend/plugins/stop-xmlrpc-attack/
 Description: Plugin for blocking access to xmlrpc.php.
-Version: 1.0.2
+Version: 1.0.3
 Author: alfreddatakillen
 Author URI: http://nurd.nu/
 License: GPLv3

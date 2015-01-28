@@ -91,6 +91,9 @@ echo "Pushing latest commit to origin, with tags"
 git push origin master
 git push origin master --tags
 
+echo "remove old svn repo if there is one:"
+rm -Rf $SVNPATH
+
 echo 
 echo "Creating local copy of SVN repo ..."
 svn co $SVNURL $SVNPATH
@@ -102,6 +105,7 @@ echo "Exporting the HEAD of master from git to the trunk of SVN"
 git checkout-index -a -f --prefix=$SVNPATH/trunk/
 
 echo "Remove git stuff from svd repo"
+rm -Rf $SVNPATH/trunk/README.md # The WordPress Plugin Directory seems to get confused when this is included.
 rm -Rf $SVNPATH/trunk/.git
 rm -Rf $SVNPATH/trunk/.gitignore
 
