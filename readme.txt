@@ -4,7 +4,7 @@ Contributors: alfreddatakillen
 Tags: xmlrpc, ddos, dos, jetpack
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,9 +42,11 @@ And, plz, use tabs for indenting! :)
 
 == Changelog ==
 
-= 1.0.1, 1.0.2 =
+= 1.0.1, 1.0.2, 1.0.3 =
 
 Bugfix: Admin page was not visible in network menu.
+
+(And a couple of dummy versions to test out the deploy script.)
 
 = 1.0.0 =
 
