@@ -1,0 +1,25 @@
+{
+	"name": "alfreddatakillen/stop_xmlrpc_attack",
+	"description": "Stop XML-RPC Attack",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Alfred Godoy",
+			"email": "alfred@klandestino.se",
+			"homepage": "http://nurd.nu/"
+		}
+	],
+	"homepage": "https://github.com/alfreddatakillen/stop_xmlrpc_attack.git",
+	"type": "wordpress-plugin",
+	"extra": {
+	},
+	"require": {
+		"php": ">=5.2.0",
+		"composer/installers": "v1.0.6"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "*",
+		"wp-cli/wp-cli": "*",
+		"wpreadme2markdown/wpreadme2markdown": "*"
+	}
+}
